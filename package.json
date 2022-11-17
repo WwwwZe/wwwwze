@@ -1,6 +1,7 @@
 {
   "name": "wwwwze",
   "version": "0.0.0",
+  "homepage": "https://wwwwze.github.io/wwwwze/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
