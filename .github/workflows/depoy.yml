@@ -16,5 +16,5 @@ jobs:
       with:
         branch: gh-pages
         folder: dist
-        ssh-key: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 # https://github.com/marketplace/actions/deploy-to-github-pages
