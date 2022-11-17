@@ -11,12 +11,12 @@ jobs:
       uses: actions/checkout@master
     - name: Install and Build
         run: |
-          npm install
+          npm ci
           npm run build
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.9
       with:
         branch: gh-pages
         folder: dist
-        ssh-key: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 # https://github.com/marketplace/actions/deploy-to-github-pages
