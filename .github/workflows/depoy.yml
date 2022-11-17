@@ -18,3 +18,4 @@ jobs:
         folder: dist
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 # https://github.com/marketplace/actions/deploy-to-github-pages
+# https://github.com/JamesIves/github-pages-deploy-action/
