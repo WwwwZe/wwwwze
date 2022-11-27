@@ -43,7 +43,7 @@
       </transition>
     </div>
     <div v-if="showType!==1">
-      <audio src="/hp.mp3" autoplay loop></audio>
+      <audio src="/wwwwze/hp.mp3" autoplay loop></audio>
       <div v-for="e in 1000" :key="e" class="snow"></div>
     </div>
   </div>
